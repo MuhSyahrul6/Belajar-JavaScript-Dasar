@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+
+<body>
+    <script>
+        const nilaiUjian = 70;
+        const nilaiAbsensi = 70;
+
+        const lulusUjian = nilaiUjian > 75;
+        document.writeln(lulusUjian);
+        const lulusAbsensi = nilaiAbsensi > 75;
+        document.writeln(lulusAbsensi);
+
+        const lulus = lulusUjian && lulusAbsensi;
+        document.writeln("<p>" + lulus + "</p>")
+    </script>
+</body>
+
+</html>
